@@ -58,6 +58,66 @@ git init
 To change the the directory use the following command cd..
   To check in which dirctory we use the command "Pwd" all the letter is case senstive ;
 
+  git staging or localrepo;
+                                    working ------ stageara ------ LocalRepository;
+
+Git Status;
+ This command is used to check the status  the working directory;
+
+D:"Learn git\Workspace-1\github.txt;
+
+On branch  master;
+ untracked file ;
+       
+ git status : normally will give the ouputs in the following ways
+   a)untracked file   it means the files are present still in working area and thes files can't be commited to "Local repositry not to remote reoposityr;(red in color);
+   b) tracked file  : It means the files are moved from working area to stage area so these files can be commited to "local reoposity" and to "remote repositry"
+   c) Modified files (red color) => it means the files are presnt sitll in working area and these files can be staged or int can also be restored 
+
+
+ also possible to 
+
+  git rm --cached github.txt ==== to reverse the file in working area ; move file to stage area to working area;
+
+   git rm --cached <fileName>;
+
+
+  if we want to to push all the files from worksape to stage area we use following command  
+
+    synatax:
+            git 
+
+    
+  The files which are ready for commit should be in stange area to perform commmit operation we use the following command 
+synatax : git commit -m <some message>;
+
+
+ eg git commit -m "Learn git";
+   git commit -m "second commit" filename ; this will commit only that file into local repositry;
+
+
+Step to followed to create a remote repositry and push it to remote repositry;
+ 
+1) Open github.com;
+2)Create a new repositry and enter some name (reposity name) and click on create repositry;
+3)To peroform push operation we need to use the following command 
+     
+
+       git branch -M main 
+       git remote add origin 
+
+
+Fist clone the project in to workspace (copy of project that your Team lead created);(fist before working on the project);
+init setup --
+add--a;
+commit --m "message"
+push;
+
+pull (lates change code will be pulled);
+
+
+
+
 
 
 
