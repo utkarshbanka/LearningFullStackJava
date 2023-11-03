@@ -1,0 +1,64 @@
+Yesterday Topics
+==============
+1) What is the need of Vcs?
+2) How many types of Vcs?
+    a)LCVS
+    b) CVCS: svn;
+    C) DVCS eg: Github,bitbucket,gitlab
+
+Architecture of git
+     a)Working area: Devleoper workspace(Source code);
+     b) stage area;Before adding the code to the localrepository we keep the code in stage area
+     c) Local Repositry;  Before pushing the code to remote repositry we keep the code in "Local Repository"
+
+ What is git and github ?
+ git-> It is a clinet tool where the user will enter url username and password of github repository;
+ github-> It is a server where we keep repositores/projects which would be used for colloboration;
+
+ 
+ git verson : to che check the git version;
+ git help : if we want to see the list of commands then we can use git help;
+  Note: This command is useful to get the the doucumnentaion of any command 
+   eg: git help<Command namee>
+
+
+3) git config:
+    It is used when the git software is used for the first time
+   The command will set the devleoper identity like name,emailid,
+   This configuration information will be used by git software every push operation encounterd;
+  
+ git config --list =  check the list of configuration;
+
+  To Set the username and email;
+    > git config --global user.name "utkarshbanka"
+      git config --global user.email "utkarsh.k.keshari@gmail.com"
+      git config --global user.name "utkarshbanka"
+
+       git config --list --show-origin //display the loacation of git configuration holded by git software;
+
+
+
+
+ Important Operation associated with git ;
+===============================================
+git init 
+===> Normally a folder will be created in the developers works place and inside the folder the source code would be place
+    
+  Why staging area;
+     This command internally create one folder called .git;
+     git  is used by git software to indentify the folder which should participate in pushing to "local" and "remote" repositry;
+  
+
+    Normally this is the first command which we execute to set up the git for operation like clone ,push,pull;
+    
+   Genrally git file is not showing that is created by git software to see this we click on view and show hidden file to see
+  the hiden file in the folder;
+
+
+To change the the directory use the following command cd..
+  To check in which dirctory we use the command "Pwd" all the letter is case senstive ;
+
+
+
+
+ 
